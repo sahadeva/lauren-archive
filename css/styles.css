@@ -1,0 +1,197 @@
+body {
+  align-item: stretch;
+  padding-bottom: 36px;
+}
+
+@media (min-width: 1024px) {
+  body {
+    padding-bottom: 90px;
+  }
+  .container {
+    width: 964px;
+  }
+}
+
+.navbar {
+  border-radius: 0;
+}
+
+a {
+  color: #0D47A1;
+}
+
+hr {
+  border-color: #304FFE;
+}
+
+h1 {
+  letter-spacing: .15em;
+  font-size: 12.65em;
+  margin: 0;
+  padding: 0;
+  line-height: .9em;
+  color: #304FFE;
+}
+
+  .title h1:last-child {
+    display: block;
+    letter-spacing: .49em;
+    color: #0D47A1;
+    margin-top: 5px;
+  }
+
+  h1, .logo h4 {
+    font-weight:bold;
+    text-transform: uppercase;
+  }
+
+  @media (max-width: 1024px) {
+    h1 {
+      font-size: 9.4em;
+    }
+  }
+  @media (max-width: 767px) {
+    h1 {
+      font-size: 3em;
+    }
+  }
+  @media (max-width: 375px) {
+    h1 {
+      font-size: 4.65em;
+    }
+  }
+  @media (max-width: 320px) {
+    h1 {
+      font-size: 3.75em;
+    }
+  }
+
+  h2 {
+    margin: 18px 0;
+  }
+
+  @media (min-width: 769px) {
+    h2 {
+      margin: 36px 0;
+    }
+  }
+
+.container-fluid.page {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+  .page .title {
+    margin-top: .5em;
+    margin-bottom: 2em;
+
+  }
+
+  .subtitle {
+    list-style: none;
+    padding: 0;
+    margin-top: 5px;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .subtitle, h2 {
+    color: #F44336;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 6px;
+  }
+
+    .subtitle li {
+      margin: 0;
+      padding: 0;
+    }
+
+      @media (min-width: 768px) {
+
+        .subtitle {
+          margin: 7px 0 12px 5px;
+        }
+
+        .subtitle li {
+          float: left;
+          width: 25%;
+        }
+          .subtitle li:nth-child(2), .subtitle li:nth-child(3) {
+            text-align: center;
+          }
+          .subtitle li:last-child {
+            text-align: right;
+          }
+      }
+
+  .book-cover {
+    max-width: 100%;
+    min-height: 300px;
+    margin: 0 0 30px 0;
+  }
+
+    @media (max-width: 768px) {
+      .book-cover {
+        margin-bottom: 15px;
+      }
+      .subtitle, h2 {
+        font-size: 17px;
+      }
+    }
+
+  .modal {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .modal-dialog {
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+
+    .modal-header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      background: none;
+      border-radius: 0;
+      z-index: 100;
+      background: #304FFE;
+      border: 0;
+      opacity: 1;
+      padding: 0;
+    }
+
+      .modal-header button.close {
+        opacity: 1;
+        text-shadow: 0 0 0;
+        color: #fff;
+        padding: 15px;
+      }
+
+    .modal-content {
+      border: 0;
+    }
+
+    .modal-body {
+      padding: 0;
+      border-radius: 0;
+      box-shadow: none;
+    }
+
+@media (min-width: 769px) {
+  .bio {
+    padding-bottom: 27px;
+  }
+}
+
+@media (max-width: 768px) {
+    #projects .img-fluid {
+      margin-bottom: 15px;
+    }
+}
